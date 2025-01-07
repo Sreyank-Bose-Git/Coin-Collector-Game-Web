@@ -1,0 +1,60 @@
+body {
+    background-color: hsl(210, 14%, 5%);
+    cursor:pointer;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+#counter {
+    font-family: cursive;
+    color:hsl(214, 98%, 35%);
+    background-color: hsl(136, 59%, 41%);
+    border: 5px solid hsl(0, 0%, 94%);
+    width: fit-content;
+    height: fit-content;
+    position:relative;
+    top: -75px;
+}
+#counter > h1{
+    margin: 10px;
+}
+#counter > h1 > span {
+    color:brown;
+}
+#coin {
+    position:relative;
+    width: 75px;
+    border-radius: 100%;
+}
+.button {
+    background-color: brown;
+    color:white;
+    font-family: cursive;
+    border: 5px solid rgb(26, 193, -132);
+}
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 5px solid rgb(26, 193, 132);
+}
+.button:active {
+    background-color: blue;
+    color:crimson;
+    border: 5px solid rgb(26, -193, 132);
+}
+#reset {
+    position:relative;
+    left: 220px;
+    font-size: 46px;
+}
+#exitWithSave {
+    position: relative;
+    left: 393px;
+    top: -32px;
+    font-size:17px;
+}
+#exitWithoutSave {
+    position:relative;
+    left: 220px;
+    font-size: 17px;
+    top: 8px;
+}

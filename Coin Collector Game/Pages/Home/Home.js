@@ -1,0 +1,1 @@
+document.getElementById("PS").innerHTML = sessionStorage.getItem("PS");

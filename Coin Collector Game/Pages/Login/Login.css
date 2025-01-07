@@ -1,0 +1,33 @@
+body {
+    font-family: cursive;
+    background-color: hsl(240, 18%, 10%);
+}
+header, footer {
+    border: 5px solid black;
+    padding: 10px;
+    background-color: hsl(185, 39%, 19%);
+}
+header > div {
+    text-align: center;
+    color:rgb(134, 209, 140);
+}
+footer > div {
+    color:rgb(128, 233, 233); 
+    margin-left:10px;
+}
+.large {
+    font-size: 25px;
+    
+    color:aquamarine
+}
+main > div {
+    border: 5px solid black;
+    background-color: blueviolet;
+    padding: 10px;
+}
+header > a {
+    color: brown;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 30px;
+}
